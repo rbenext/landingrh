@@ -29,8 +29,8 @@ body {
     order: -1;
 }
 
-footer, formu, ladodir {
-    padding: 1em;
+formu {
+    padding-top: 1em;
 }
 
 header {
@@ -88,16 +88,11 @@ p {
     margin: 16px;
 }
 
-#formulario {
-    font-family: "Roboto Condensed";
-    font-size: 16px;
-
-}
-
 footer {
     background-color: black;
     text-align: center;
     height: auto;
+    padding-bottom: 10px;
 }
 
 footer p {
@@ -107,7 +102,11 @@ footer p {
     line-height: 1.5em;
     font-weight: 1;
     font-size: 12px;
-    margin: 10px 0 0 0;
+    margin: 10px 0 10px 0;
+}
+
+footer img {
+    margin: 20px 0 0 0;
 }
 
 formu p {
@@ -120,7 +119,7 @@ formu p {
     margin: 16px;
 }
 
-form {
+formu h1 {
     font-family: "Roboto Condensed";
     color: white;
     text-align: center;
