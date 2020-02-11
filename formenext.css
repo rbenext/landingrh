@@ -69,12 +69,16 @@ ladoesq {
 formu {
     font-family: "Roboto Condensed";
     color: white;
-    margin-top: -30px;
+    margin-top: 20px;
+    transform: scaleY(0.9);
+}
+
+formu h1 {
+    font-family: "Roboto Condensed";
+    color: white;
     text-align: center;
     line-height: 33px;
     font-weight: 550;
-    transform: scaleY(0.9);
-    font-stretch: normal;
     font-size: 40px;
 }
 
@@ -117,17 +121,4 @@ formu p {
     font-weight: 1;
     font-size: 20px;
     margin: 16px;
-}
-
-formu h1 {
-    font-family: "Roboto Condensed";
-    color: white;
-    text-align: center;
-    line-height: 33px;
-    font-size: 20px;
-    margin: 16px;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    margin: 5px 10px 5px 0;
 }
