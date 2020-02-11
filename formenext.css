@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+* {
+    box-sizing: border-box; 
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    margin: 0;
+    background-color: #121212;
+}
+
+#main {
+    display: flex;
+    min-height: calc(100vh - 40vh);
+}
+
+#main > formu {
+    flex: 2;
+}
+
+#main > ladoesq, ladodir {
+    flex: 0 0 25vw;
+    /*background: red;*/
+}
+
+#main > ladoesq {
+    order: -1;
+}
+
+footer, formu, ladodir {
+    padding: 1em;
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+    /*background: red;*/
+}
+
+.img-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ladoesq {
+    margin: -90px 0 0 0;
+    z-index: -3;
+}
+
+.onboarding {
+    font-family: 'Roboto', sans-serif;
+    margin-left: -30px;
+    color: #1E1E1E;
+    font-weight: 550;
+    font-size: 1620%; /* ou 260px */
+    line-height: 200px;
+    word-break:break-all;
+    /* Texto não selecionável: */
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+formu {
+    font-family: "Roboto Condensed";
+    color: white;
+    margin-top: -30px;
+    text-align: center;
+    line-height: 33px;
+    font-weight: 550;
+    transform: scaleY(0.9);
+    font-stretch: normal;
+    font-size: 40px;
+}
+
+p {
+    font-family: "Roboto Condensed";
+    color: white;
+    text-align: center;
+    line-height: 33px;
+    font-weight: 1;
+    font-size: 20px;
+    margin: 16px;
+}
+
+#formulario {
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    height: auto;
+}
+
+footer p {
+    font-family: "Roboto Condensed";
+    color: white;
+    text-align: center;
+    line-height: 1.5em;
+    font-weight: 1;
+    font-size: 12px;
+    margin: 10px 0 0 0;
+}
+
+formu p {
+    font-family: "Roboto Condensed";
+    color: white;
+    text-align: center;
+    line-height: 33px;
+    font-weight: 1;
+    font-size: 20px;
+    margin: 16px;
+}
+
+form {
+    font-family: "Roboto Condensed";
+    color: white;
+    text-align: center;
+    line-height: 33px;
+    font-size: 20px;
+    margin: 16px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 5px 10px 5px 0;
+}
