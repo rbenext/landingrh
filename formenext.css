@@ -14,6 +14,7 @@ body {
 #main {
     display: flex;
     min-height: calc(100vh - 40vh);
+    flex: 1 0 auto;
 }
 
 #main > formu {
@@ -93,6 +94,7 @@ p {
 }
 
 footer {
+    flex: 0 0 90px;
     background-color: black;
     text-align: center;
     height: auto;
