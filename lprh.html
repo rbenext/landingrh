@@ -77,19 +77,19 @@
     
                     <div class="wrap-date">
                         <label for="name">PRAZO PARA ENVIO DOS DOCUMENTOS:</label>
-                        <input class="input-date" type="datetime-local" name="prazo" required>
+                        <input class="input-date" type="datetime-local" max="9999-12-31T23:59" name="prazo" required>
                         <span class="focus-input"></span>
                     </div>
     
                     <div class="wrap-date">
                         <label for="name">DATA DO EXAME ADMISSIONAL:</label>
-                        <input class="input-date" type="datetime-local" name="exame" required>
+                        <input class="input-date" type="datetime-local" max="9999-12-31T23:59" name="exame" required>
                         <span class="focus-input"></span>
                     </div>
     
                     <div class="wrap-date">
                         <label for="name">INÍCIO NA ENEXT:</label>
-                        <input class="input-date" type="datetime-local" name="inicio" required>
+                        <input class="input-date" type="datetime-local" max="9999-12-31T23:59" name="inicio" required>
                         <span class="focus-input"></span>
                     </div>
     
@@ -128,8 +128,10 @@
         <ladodir />
     </div>
     <footer>
-        <img src="enext logo.png" width="60px" height="auto">
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate, facere cum doloribus impedit optio ut est dolore! Fugiat error a magni aliquid reprehenderit laudantium nihil. Voluptatibus neque tempore, odio a, laudantium ex quisquam porro repellendus magni autem dolorum. Animi nam sapiente rerum quas deleniti quaerat aut corporis consequuntur pariatur non aliquam numquam veniam dolore modi ipsam, optio ipsum id accusantium.</p>
+        <div id="foot">
+            <img src="enext logo.png" width="60px" height="auto">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate, facere cum doloribus impedit optio ut est dolore! Fugiat error a magni aliquid <b>reprehenderit laudantium nihil. Voluptatibus neque tempore, odio a, laudantium ex quisquam porro repellendus magni autem dolorum.</b></p>
+        </div>
     </footer>
     <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
 	<script src="js/main.js"></script>
