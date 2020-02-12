@@ -129,11 +129,9 @@ iframe {
 [ Contact ]*/
 
 .wrap-contact {
-  width: 600px; /* change */
-  min-height: 100vh;
-  background: #1E1E1E;
-  padding: 82px 55px 33px 55px;
-  position: relative;
+  display: flex;
+  margin: 50px 0 0 45px;
+  justify-content: center;
 }
 
 .show-wrap-contact {
