@@ -129,6 +129,7 @@ iframe {
 [ Contact ]*/
 
 .wrap-contact {
+  margin-top: 45px;
   display: flex;
   min-width: 415px;
   justify-content: center;

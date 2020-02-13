@@ -102,6 +102,7 @@ p {
 }
 
 footer {
+    bottom: 0;
     width: 100%;
     background-color: black;
     text-align: center;
