@@ -85,16 +85,6 @@ formu h1 {
     font-size: 40px;
 }
 
-p {
-    font-family: "Roboto Condensed";
-    color: white;
-    text-align: center;
-    line-height: 33px;
-    font-weight: 1;
-    font-size: 20px;
-    margin: 16px;
-}
-
 #foot {
     box-sizing: border-box;
     width: 100%;
